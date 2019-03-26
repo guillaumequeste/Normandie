@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne');
+.accueil {
+    height: 95vh;
+    background-size: cover;
+    width: auto;
+    background-image: url('/assets/img/table.jpg');
+    background-position: 50% 50%;
+}
+
+.dieppe {
+    position: fixed;
+    top: 19%;
+    left: 15%;
+}
+
+.diapo {
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    transform: rotate(20deg);
+}
+
+.up {
+    display: flex;
+    width: 100%;
+    height: 85%;
+}
+
+.photo {
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    width: 98%;
+}
+
+.down {
+    display: flex;
+    width: 100%;
+    height: 15%;
+}
+
+h1 {
+    margin: auto;
+    font-family: 'Parisienne', cursive, sans-serif;
+    font-weight: bold;
+}
