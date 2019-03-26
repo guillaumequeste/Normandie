@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne');
 .header {
     height: 5vh;
+    background-color: rgb(17, 143, 201);
+    line-height: 5vh;
+    padding-left: 5%;
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Parisienne', cursive, sans-serif;
+    margin: 0;
 }
