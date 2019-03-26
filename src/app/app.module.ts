@@ -7,6 +7,7 @@ import { DieppeComponent } from './components/dieppe/dieppe.component';
 import { AccueilComponent } from './components/accueil/accueil.component';
 import { ErreurComponent } from './components/erreur/erreur.component';
 import { HeaderComponent } from './components/header/header.component';
+import { BernevalComponent } from './components/berneval/berneval.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HeaderComponent } from './components/header/header.component';
     DieppeComponent,
     AccueilComponent,
     ErreurComponent,
-    HeaderComponent
+    HeaderComponent,
+    BernevalComponent
   ],
   imports: [
     BrowserModule,
