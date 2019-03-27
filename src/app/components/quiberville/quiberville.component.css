@@ -3,6 +3,21 @@ img {
     height: 80vh;
 }
 
+.premier {
+    padding: 1% 5% 5% 5%;
+}
+
 .un {
     padding: 5%;
+}
+
+h1 {
+    font-family: 'Parisienne', cursive, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+    font-size: 4em;
+    margin: 0;
+    padding-top: 1%;
 }
