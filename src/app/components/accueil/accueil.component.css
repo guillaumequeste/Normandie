@@ -42,11 +42,11 @@ h2 {
     font-weight: bold;
 }
 
-.dieppe {
+.belleville {
     position: fixed;
-    top: 19%;
-    left: 15%;
-    transform: rotate(20deg);
+    top: 39%;
+    right: 35%;
+    transform: rotate(40deg);
 }
 
 .berneval {
@@ -56,13 +56,24 @@ h2 {
     transform: rotate(-20deg);
 }
 
+.dieppe {
+    position: fixed;
+    top: 19%;
+    left: 15%;
+    transform: rotate(20deg);
+}
+
 @media screen and (max-width: 1000px) {
-    .berneval {
+    .belleville {
         top: 50px;
         transform: rotate(0deg);
     }
-    .dieppe {
+    .berneval {
         top: 300px;
+        transform: rotate(0deg);
+    }
+    .dieppe {
+        top: 550px;
         transform: rotate(0deg);
     }
 }

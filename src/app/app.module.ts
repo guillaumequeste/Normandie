@@ -9,6 +9,7 @@ import { AccueilComponent } from './components/accueil/accueil.component';
 import { ErreurComponent } from './components/erreur/erreur.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BernevalComponent } from './components/berneval/berneval.component';
+import { BellevilleComponent } from './components/belleville/belleville.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { BernevalComponent } from './components/berneval/berneval.component';
     AccueilComponent,
     ErreurComponent,
     HeaderComponent,
-    BernevalComponent
+    BernevalComponent,
+    BellevilleComponent
   ],
   imports: [
     BrowserModule,
