@@ -11,6 +11,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { BernevalComponent } from './components/berneval/berneval.component';
 import { BellevilleComponent } from './components/belleville/belleville.component';
 import { PourvilleComponent } from './components/pourville/pourville.component';
+import { SainteMargueriteComponent } from './components/sainte-marguerite/sainte-marguerite.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PourvilleComponent } from './components/pourville/pourville.component';
     HeaderComponent,
     BernevalComponent,
     BellevilleComponent,
-    PourvilleComponent
+    PourvilleComponent,
+    SainteMargueriteComponent
   ],
   imports: [
     BrowserModule,
