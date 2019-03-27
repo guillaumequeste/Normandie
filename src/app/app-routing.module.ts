@@ -12,6 +12,7 @@ import { QuibervilleComponent } from './components/quiberville/quiberville.compo
 import { SottevilleComponent } from './components/sotteville/sotteville.component';
 import { VarengevilleComponent } from './components/varengeville/varengeville.component';
 import { CreditsComponent } from './components/credits/credits.component';
+import { VeulesComponent } from './components/veules/veules.component';
 
 const routes: Routes = [
   { path: 'accueil', component: AccueilComponent },
@@ -25,6 +26,7 @@ const routes: Routes = [
   { path: 'sainte_marguerite', component: SainteMargueriteComponent, data: { animation: 'isRight' } },
   { path: 'sotteville', component: SottevilleComponent, data: { animation: 'isRight' } },
   { path: 'varengeville', component: VarengevilleComponent, data: { animation: 'isRight' } },
+  { path: 'veules', component: VeulesComponent, data: { animation: 'isRight' } },
   { path: '', redirectTo: 'accueil', pathMatch: 'full' },
   { path: '**', component: ErreurComponent }
 ];

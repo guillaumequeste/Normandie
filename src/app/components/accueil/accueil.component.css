@@ -105,9 +105,16 @@ h2 {
     transform: rotate(-85deg);
 }
 
+.veules {
+    position: fixed;
+    top: 65%;
+    right: 25%;
+    transform: rotate(5deg);
+}
+
 @media screen and (max-width: 1000px) {
     .accueil {
-        height: 2000px;
+        height: 2600px;
     }
     .belleville {
         position: absolute;
@@ -126,32 +133,37 @@ h2 {
     }
     .le_treport {
         position: absolute;
-        top: 1550px;
+        top: 800px;
         transform: rotate(0deg);
     }
     .pourville {
         position: absolute;
-        top: 800px;
+        top: 1050px;
         transform: rotate(0deg);
     }
     .quiberville {
         position: absolute;
-        top: 1050px;
+        top: 1300px;
         transform: rotate(0deg);
     }
     .sainte_marguerite {
         position: absolute;
-        top: 1300px;
+        top: 1550px;
         transform: rotate(0deg);
     }
     .sotteville {
         position: absolute;
-        top: 1550px;
+        top: 1800px;
         transform: rotate(0deg);
     }
     .varengeville {
         position: absolute;
-        top: 1800px;
+        top: 2050px;
+        transform: rotate(0deg);
+    }
+    .veules {
+        position: absolute;
+        top: 2300px;
         transform: rotate(0deg);
     }
 }

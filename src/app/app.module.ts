@@ -17,6 +17,7 @@ import { QuibervilleComponent } from './components/quiberville/quiberville.compo
 import { SottevilleComponent } from './components/sotteville/sotteville.component';
 import { VarengevilleComponent } from './components/varengeville/varengeville.component';
 import { CreditsComponent } from './components/credits/credits.component';
+import { VeulesComponent } from './components/veules/veules.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { CreditsComponent } from './components/credits/credits.component';
     QuibervilleComponent,
     SottevilleComponent,
     VarengevilleComponent,
-    CreditsComponent
+    CreditsComponent,
+    VeulesComponent
   ],
   imports: [
     BrowserModule,
