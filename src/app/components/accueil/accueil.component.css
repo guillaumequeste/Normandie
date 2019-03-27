@@ -55,3 +55,14 @@ h2 {
     right: 15%;
     transform: rotate(-20deg);
 }
+
+@media screen and (max-width: 1000px) {
+    .berneval {
+        top: 50px;
+        transform: rotate(0deg);
+    }
+    .dieppe {
+        top: 300px;
+        transform: rotate(0deg);
+    }
+}
