@@ -44,7 +44,7 @@ h2 {
 
 .belleville {
     position: fixed;
-    top: 39%;
+    top: 29%;
     right: 35%;
     transform: rotate(40deg);
 }
@@ -65,8 +65,8 @@ h2 {
 
 .le_treport {
     position: fixed;
-    top: 55%;
-    left: 20%;
+    top: 58%;
+    left: 30%;
     transform: rotate(-5deg);
 }
 
@@ -111,6 +111,11 @@ h2 {
     .sainte_marguerite {
         position: absolute;
         top: 1050px;
+        transform: rotate(0deg);
+    }
+    .le_treport {
+        position: absolute;
+        top: 1300px;
         transform: rotate(0deg);
     }
 }
