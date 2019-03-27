@@ -58,8 +58,8 @@ h2 {
 
 .dieppe {
     position: fixed;
-    top: 49%;
-    left: 10%;
+    top: 65%;
+    left: 5%;
     transform: rotate(5deg);
 }
 
@@ -87,7 +87,7 @@ h2 {
 .sainte_marguerite {
     position: fixed;
     top: 59%;
-    right: 15%;
+    right: 5%;
     transform: rotate(-7deg);
 }
 
@@ -96,6 +96,13 @@ h2 {
     top: 15%;
     right: 3%;
     transform: rotate(45deg);
+}
+
+.varengeville {
+    position: fixed;
+    top: 15%;
+    left: 1%;
+    transform: rotate(-85deg);
 }
 
 @media screen and (max-width: 1000px) {
@@ -140,6 +147,11 @@ h2 {
     .sotteville {
         position: absolute;
         top: 1550px;
+        transform: rotate(0deg);
+    }
+    .varengeville {
+        position: absolute;
+        top: 1800px;
         transform: rotate(0deg);
     }
 }

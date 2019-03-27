@@ -15,6 +15,8 @@ import { SainteMargueriteComponent } from './components/sainte-marguerite/sainte
 import { LeTreportComponent } from './components/le-treport/le-treport.component';
 import { QuibervilleComponent } from './components/quiberville/quiberville.component';
 import { SottevilleComponent } from './components/sotteville/sotteville.component';
+import { VarengevilleComponent } from './components/varengeville/varengeville.component';
+import { CreditsComponent } from './components/credits/credits.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { SottevilleComponent } from './components/sotteville/sotteville.componen
     SainteMargueriteComponent,
     LeTreportComponent,
     QuibervilleComponent,
-    SottevilleComponent
+    SottevilleComponent,
+    VarengevilleComponent,
+    CreditsComponent
   ],
   imports: [
     BrowserModule,
