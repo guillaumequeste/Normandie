@@ -77,6 +77,13 @@ h2 {
     transform: rotate(20deg);
 }
 
+.quiberville {
+    position: fixed;
+    top: 8%;
+    left: 28%;
+    transform: rotate(-3deg);
+}
+
 .sainte_marguerite {
     position: fixed;
     top: 59%;
@@ -86,7 +93,7 @@ h2 {
 
 @media screen and (max-width: 1000px) {
     .accueil {
-        height: 1500px;
+        height: 2000px;
     }
     .belleville {
         position: absolute;
@@ -108,14 +115,19 @@ h2 {
         top: 800px;
         transform: rotate(0deg);
     }
-    .sainte_marguerite {
+    .quiberville {
         position: absolute;
         top: 1050px;
         transform: rotate(0deg);
     }
-    .le_treport {
+    .sainte_marguerite {
         position: absolute;
         top: 1300px;
+        transform: rotate(0deg);
+    }
+    .le_treport {
+        position: absolute;
+        top: 1550px;
         transform: rotate(0deg);
     }
 }

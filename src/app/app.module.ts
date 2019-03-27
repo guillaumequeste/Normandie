@@ -13,6 +13,7 @@ import { BellevilleComponent } from './components/belleville/belleville.componen
 import { PourvilleComponent } from './components/pourville/pourville.component';
 import { SainteMargueriteComponent } from './components/sainte-marguerite/sainte-marguerite.component';
 import { LeTreportComponent } from './components/le-treport/le-treport.component';
+import { QuibervilleComponent } from './components/quiberville/quiberville.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { LeTreportComponent } from './components/le-treport/le-treport.component
     BellevilleComponent,
     PourvilleComponent,
     SainteMargueriteComponent,
-    LeTreportComponent
+    LeTreportComponent,
+    QuibervilleComponent
   ],
   imports: [
     BrowserModule,

@@ -8,6 +8,7 @@ import { BellevilleComponent } from './components/belleville/belleville.componen
 import { PourvilleComponent } from './components/pourville/pourville.component';
 import { SainteMargueriteComponent } from './components/sainte-marguerite/sainte-marguerite.component';
 import { LeTreportComponent } from './components/le-treport/le-treport.component';
+import { QuibervilleComponent } from './components/quiberville/quiberville.component';
 
 const routes: Routes = [
   { path: 'accueil', component: AccueilComponent },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'dieppe', component: DieppeComponent, data: { animation: 'isRight' } },
   { path: 'le_treport', component: LeTreportComponent, data: { animation: 'isRight' } },
   { path: 'pourville', component: PourvilleComponent, data: { animation: 'isRight' } },
+  { path: 'quiberville', component: QuibervilleComponent, data: { animation: 'isRight' } },
   { path: 'sainte_marguerite', component: SainteMargueriteComponent, data: { animation: 'isRight' } },
   { path: '', redirectTo: 'accueil', pathMatch: 'full' },
   { path: '**', component: ErreurComponent }
