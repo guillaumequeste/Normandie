@@ -58,22 +58,40 @@ h2 {
 
 .dieppe {
     position: fixed;
+    top: 49%;
+    left: 10%;
+    transform: rotate(5deg);
+}
+
+.pourville {
+    position: fixed;
     top: 19%;
     left: 15%;
     transform: rotate(20deg);
 }
 
 @media screen and (max-width: 1000px) {
+    .accueil {
+        height: 1500px;
+    }
     .belleville {
+        position: absolute;
         top: 50px;
         transform: rotate(0deg);
     }
     .berneval {
+        position: absolute;
         top: 300px;
         transform: rotate(0deg);
     }
     .dieppe {
+        position: absolute;
         top: 550px;
+        transform: rotate(0deg);
+    }
+    .pourville {
+        position: absolute;
+        top: 800px;
         transform: rotate(0deg);
     }
 }

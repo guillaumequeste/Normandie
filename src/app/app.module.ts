@@ -10,6 +10,7 @@ import { ErreurComponent } from './components/erreur/erreur.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BernevalComponent } from './components/berneval/berneval.component';
 import { BellevilleComponent } from './components/belleville/belleville.component';
+import { PourvilleComponent } from './components/pourville/pourville.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { BellevilleComponent } from './components/belleville/belleville.componen
     ErreurComponent,
     HeaderComponent,
     BernevalComponent,
-    BellevilleComponent
+    BellevilleComponent,
+    PourvilleComponent
   ],
   imports: [
     BrowserModule,
