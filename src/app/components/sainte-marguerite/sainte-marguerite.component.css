@@ -1,42 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Parisienne');
+img {
+    width: 80vw;
+    height: 80vh;
+}
+
+.premier {
+    padding: 1% 5% 5% 5%;
+}
+
 .un {
-    height: 95vh;
-    background-size: cover;
-    width: auto;
-    background-image: url('/assets/img/sainte-marguerite/sm1.jpg');
-    background-position: 50% 50%;
+    padding: 5%;
 }
 
 h1 {
-    margin: auto;
     font-family: 'Parisienne', cursive, sans-serif;
     font-weight: bold;
     text-align: center;
     padding-top: 5%;
     color: white;
     font-size: 4em;
-}
-
-.deux {
-    height: 100vh;
-    background-size: cover;
-    width: auto;
-    background-image: url('/assets/img/sainte-marguerite/sm2.jpg');
-    background-position: 50% 50%;
-}
-
-.trois {
-    height: 100vh;
-    background-size: cover;
-    width: auto;
-    background-image: url('/assets/img/sainte-marguerite/sm3.jpg');
-    background-position: 50% 50%;
-}
-
-.quatre {
-    height: 100vh;
-    background-size: cover;
-    width: auto;
-    background-image: url('/assets/img/sainte-marguerite/sm4.jpg');
-    background-position: 50% 50%;
+    margin: 0;
+    padding-top: 1%;
 }
