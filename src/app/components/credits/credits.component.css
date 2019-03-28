@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Parisienne');
 .credits {
     height: 95vh;
-    background-color: rgb(17, 143, 201);
+    background-size: cover;
+    width: auto;
+    background-image: url('/assets/img/sea.jpg');
+    background-position: 50% 50%;
 }
 
 h1 {
-    padding-top: 15%;
+    padding-top: 5%;
     text-align: center;
-    color: white;
+    color: rgb(57, 160, 207);
     font-family: 'Parisienne', cursive, sans-serif;
     margin: 0;
 }
