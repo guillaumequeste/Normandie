@@ -123,6 +123,14 @@ h2 {
     transform: rotate(-7deg);
 }
 
+.saint_valery {
+    position: fixed;
+    top: 7%;
+    left: 50%;
+    transform: rotate(7deg);
+    z-index: 50;
+}
+
 .sotteville {
     position: fixed;
     top: 15%;

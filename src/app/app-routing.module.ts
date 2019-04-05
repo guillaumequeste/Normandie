@@ -17,6 +17,7 @@ import { PuysComponent } from './components/puys/puys.component';
 import { CrielComponent } from './components/criel/criel.component';
 import { MesnilValComponent } from './components/mesnil-val/mesnil-val.component';
 import { SaintAubinComponent } from './components/saint-aubin/saint-aubin.component';
+import { SaintValeryComponent } from './components/saint-valery/saint-valery.component';
 
 const routes: Routes = [
   { path: 'accueil', component: AccueilComponent },
@@ -32,6 +33,7 @@ const routes: Routes = [
   { path: 'quiberville', component: QuibervilleComponent, data: { animation: 'isRight' } },
   { path: 'saint_aubin', component: SaintAubinComponent, data: { animation: 'isRight' } },
   { path: 'sainte_marguerite', component: SainteMargueriteComponent, data: { animation: 'isRight' } },
+  { path: 'saint_valery', component: SaintValeryComponent, data: { animation: 'isRight' } },
   { path: 'sotteville', component: SottevilleComponent, data: { animation: 'isRight' } },
   { path: 'varengeville', component: VarengevilleComponent, data: { animation: 'isRight' } },
   { path: 'veules', component: VeulesComponent, data: { animation: 'isRight' } },
