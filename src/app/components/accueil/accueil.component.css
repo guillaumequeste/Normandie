@@ -108,6 +108,14 @@ h2 {
     transform: rotate(-3deg);
 }
 
+.saint_aubin {
+    position: fixed;
+    top: 50%;
+    right: 15%;
+    transform: rotate(-7deg);
+    z-index: 10;
+}
+
 .sainte_marguerite {
     position: fixed;
     top: 65%;
