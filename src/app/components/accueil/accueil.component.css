@@ -44,9 +44,10 @@ h2 {
 
 .belleville {
     position: fixed;
-    top: 29%;
-    right: 35%;
+    top: 27%;
+    right: 32%;
     transform: rotate(40deg);
+    z-index: 30;
 }
 
 .berneval {
@@ -61,7 +62,7 @@ h2 {
     top: 55%;
     left: 20%;
     transform: rotate(-10deg);
-    z-index: 80;
+    z-index: 10;
 }
 
 .dieppe {
@@ -76,6 +77,14 @@ h2 {
     top: 68%;
     left: 30%;
     transform: rotate(-5deg);
+}
+
+.mesnil_val {
+    position: fixed;
+    top: 45%;
+    left: 35%;
+    transform: rotate(15deg);
+    z-index: 20;
 }
 
 .pourville {
@@ -101,7 +110,7 @@ h2 {
 
 .sainte_marguerite {
     position: fixed;
-    top: 59%;
+    top: 65%;
     right: 5%;
     transform: rotate(-7deg);
 }
