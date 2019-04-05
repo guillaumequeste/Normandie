@@ -56,6 +56,14 @@ h2 {
     transform: rotate(-20deg);
 }
 
+.criel {
+    position: fixed;
+    top: 55%;
+    left: 20%;
+    transform: rotate(-10deg);
+    z-index: 80;
+}
+
 .dieppe {
     position: fixed;
     top: 65%;
@@ -65,7 +73,7 @@ h2 {
 
 .le_treport {
     position: fixed;
-    top: 58%;
+    top: 68%;
     left: 30%;
     transform: rotate(-5deg);
 }

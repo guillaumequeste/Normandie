@@ -14,12 +14,14 @@ import { VarengevilleComponent } from './components/varengeville/varengeville.co
 import { CreditsComponent } from './components/credits/credits.component';
 import { VeulesComponent } from './components/veules/veules.component';
 import { PuysComponent } from './components/puys/puys.component';
+import { CrielComponent } from './components/criel/criel.component';
 
 const routes: Routes = [
   { path: 'accueil', component: AccueilComponent },
   { path: 'credits', component: CreditsComponent, data: { animation: 'isRight' } },
   { path: 'belleville', component: BellevilleComponent, data: { animation: 'isRight' } },
   { path: 'berneval', component: BernevalComponent, data: { animation: 'isRight' } },
+  { path: 'criel', component: CrielComponent, data: { animation: 'isRight' } },
   { path: 'dieppe', component: DieppeComponent, data: { animation: 'isRight' } },
   { path: 'le_treport', component: LeTreportComponent, data: { animation: 'isRight' } },
   { path: 'pourville', component: PourvilleComponent, data: { animation: 'isRight' } },
