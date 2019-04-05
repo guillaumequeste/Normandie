@@ -18,6 +18,11 @@ import { SottevilleComponent } from './components/sotteville/sotteville.componen
 import { VarengevilleComponent } from './components/varengeville/varengeville.component';
 import { CreditsComponent } from './components/credits/credits.component';
 import { VeulesComponent } from './components/veules/veules.component';
+import { PuysComponent } from './components/puys/puys.component';
+import { CrielComponent } from './components/criel/criel.component';
+import { MesnilValComponent } from './components/mesnil-val/mesnil-val.component';
+import { SaintAubinComponent } from './components/saint-aubin/saint-aubin.component';
+import { SaintValeryComponent } from './components/saint-valery/saint-valery.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +40,12 @@ import { VeulesComponent } from './components/veules/veules.component';
     SottevilleComponent,
     VarengevilleComponent,
     CreditsComponent,
-    VeulesComponent
+    VeulesComponent,
+    PuysComponent,
+    CrielComponent,
+    MesnilValComponent,
+    SaintAubinComponent,
+    SaintValeryComponent
   ],
   imports: [
     BrowserModule,

@@ -13,6 +13,7 @@ import { SottevilleComponent } from './components/sotteville/sotteville.componen
 import { VarengevilleComponent } from './components/varengeville/varengeville.component';
 import { CreditsComponent } from './components/credits/credits.component';
 import { VeulesComponent } from './components/veules/veules.component';
+import { PuysComponent } from './components/puys/puys.component';
 
 const routes: Routes = [
   { path: 'accueil', component: AccueilComponent },
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'dieppe', component: DieppeComponent, data: { animation: 'isRight' } },
   { path: 'le_treport', component: LeTreportComponent, data: { animation: 'isRight' } },
   { path: 'pourville', component: PourvilleComponent, data: { animation: 'isRight' } },
+  { path: 'puys', component: PuysComponent, data: { animation: 'isRight' } },
   { path: 'quiberville', component: QuibervilleComponent, data: { animation: 'isRight' } },
   { path: 'sainte_marguerite', component: SainteMargueriteComponent, data: { animation: 'isRight' } },
   { path: 'sotteville', component: SottevilleComponent, data: { animation: 'isRight' } },
