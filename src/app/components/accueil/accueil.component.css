@@ -154,7 +154,7 @@ h2 {
 
 @media screen and (max-width: 1000px) {
     .accueil {
-        height: 2600px;
+        height: 3850px;
     }
     .belleville {
         position: absolute;
@@ -166,44 +166,69 @@ h2 {
         top: 300px;
         transform: rotate(0deg);
     }
-    .dieppe {
+    .criel {
         position: absolute;
         top: 550px;
         transform: rotate(0deg);
     }
-    .le_treport {
+    .dieppe {
         position: absolute;
         top: 800px;
         transform: rotate(0deg);
     }
-    .pourville {
+    .le_treport {
         position: absolute;
         top: 1050px;
         transform: rotate(0deg);
     }
-    .quiberville {
+    .mesnil_val {
         position: absolute;
         top: 1300px;
         transform: rotate(0deg);
     }
-    .sainte_marguerite {
+    .pourville {
         position: absolute;
         top: 1550px;
         transform: rotate(0deg);
     }
-    .sotteville {
+    .puys {
         position: absolute;
         top: 1800px;
         transform: rotate(0deg);
     }
-    .varengeville {
+    .quiberville {
         position: absolute;
         top: 2050px;
         transform: rotate(0deg);
     }
-    .veules {
+    .saint_aubin {
         position: absolute;
         top: 2300px;
+        transform: rotate(0deg);
+    }
+    .sainte_marguerite {
+        position: absolute;
+        top: 2550px;
+        transform: rotate(0deg);
+    }
+    .saint_valery {
+        position: absolute;
+        top: 2800px;
+        transform: rotate(0deg);
+    }
+    .sotteville {
+        position: absolute;
+        top: 3050px;
+        transform: rotate(0deg);
+    }
+    .varengeville {
+        position: absolute;
+        top: 3300px;
+        transform: rotate(0deg);
+    }
+    .veules {
+        position: absolute;
+        top: 3550px;
         transform: rotate(0deg);
     }
 }
