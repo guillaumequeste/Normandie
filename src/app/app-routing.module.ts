@@ -18,6 +18,7 @@ import { CrielComponent } from './components/criel/criel.component';
 import { MesnilValComponent } from './components/mesnil-val/mesnil-val.component';
 import { SaintAubinComponent } from './components/saint-aubin/saint-aubin.component';
 import { SaintValeryComponent } from './components/saint-valery/saint-valery.component';
+import { MersComponent } from './components/mers/mers.component';
 
 const routes: Routes = [
   { path: 'accueil', component: AccueilComponent },
@@ -27,6 +28,7 @@ const routes: Routes = [
   { path: 'criel', component: CrielComponent, data: { animation: 'isRight' } },
   { path: 'dieppe', component: DieppeComponent, data: { animation: 'isRight' } },
   { path: 'le_treport', component: LeTreportComponent, data: { animation: 'isRight' } },
+  { path: 'mers', component: MersComponent, data: { animation: 'isRight' } },
   { path: 'mesnil_val', component: MesnilValComponent, data: { animation: 'isRight' } },
   { path: 'pourville', component: PourvilleComponent, data: { animation: 'isRight' } },
   { path: 'puys', component: PuysComponent, data: { animation: 'isRight' } },

@@ -23,6 +23,7 @@ import { CrielComponent } from './components/criel/criel.component';
 import { MesnilValComponent } from './components/mesnil-val/mesnil-val.component';
 import { SaintAubinComponent } from './components/saint-aubin/saint-aubin.component';
 import { SaintValeryComponent } from './components/saint-valery/saint-valery.component';
+import { MersComponent } from './components/mers/mers.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { SaintValeryComponent } from './components/saint-valery/saint-valery.com
     CrielComponent,
     MesnilValComponent,
     SaintAubinComponent,
-    SaintValeryComponent
+    SaintValeryComponent,
+    MersComponent
   ],
   imports: [
     BrowserModule,
