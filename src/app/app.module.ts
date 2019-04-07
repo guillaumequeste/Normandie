@@ -24,6 +24,7 @@ import { MesnilValComponent } from './components/mesnil-val/mesnil-val.component
 import { SaintAubinComponent } from './components/saint-aubin/saint-aubin.component';
 import { SaintValeryComponent } from './components/saint-valery/saint-valery.component';
 import { MersComponent } from './components/mers/mers.component';
+import { AultComponent } from './components/ault/ault.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { MersComponent } from './components/mers/mers.component';
     MesnilValComponent,
     SaintAubinComponent,
     SaintValeryComponent,
-    MersComponent
+    MersComponent,
+    AultComponent
   ],
   imports: [
     BrowserModule,

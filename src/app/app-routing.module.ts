@@ -19,10 +19,12 @@ import { MesnilValComponent } from './components/mesnil-val/mesnil-val.component
 import { SaintAubinComponent } from './components/saint-aubin/saint-aubin.component';
 import { SaintValeryComponent } from './components/saint-valery/saint-valery.component';
 import { MersComponent } from './components/mers/mers.component';
+import { AultComponent } from './components/ault/ault.component';
 
 const routes: Routes = [
   { path: 'accueil', component: AccueilComponent },
   { path: 'credits', component: CreditsComponent, data: { animation: 'isRight' } },
+  { path: 'ault', component: AultComponent, data: { animation: 'isRight' } },
   { path: 'belleville', component: BellevilleComponent, data: { animation: 'isRight' } },
   { path: 'berneval', component: BernevalComponent, data: { animation: 'isRight' } },
   { path: 'criel', component: CrielComponent, data: { animation: 'isRight' } },
