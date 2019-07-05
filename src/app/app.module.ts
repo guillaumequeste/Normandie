@@ -30,6 +30,7 @@ import { EtretatComponent } from './components/etretat/etretat.component';
 import { VeulettesComponent } from './components/veulettes/veulettes.component';
 import { LpdallesComponent } from './components/lpdalles/lpdalles.component';
 import { LgdallesComponent } from './components/lgdalles/lgdalles.component';
+import { SaintPierreEnPortComponent } from './components/saint-pierre-en-port/saint-pierre-en-port.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +60,8 @@ import { LgdallesComponent } from './components/lgdalles/lgdalles.component';
     EtretatComponent,
     VeulettesComponent,
     LpdallesComponent,
-    LgdallesComponent
+    LgdallesComponent,
+    SaintPierreEnPortComponent
   ],
   imports: [
     BrowserModule,

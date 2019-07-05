@@ -163,6 +163,14 @@ h4 {
     z-index: 5;
 }
 
+.saint_pierre_en_port {
+    position: fixed;
+    top: 8%;
+    left: 1%;
+    transform: rotate(-7deg);
+    z-index: 10;
+}
+
 .saint_valery {
     position: fixed;
     top: 7%;

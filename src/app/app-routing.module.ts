@@ -25,6 +25,7 @@ import { EtretatComponent } from './components/etretat/etretat.component';
 import { VeulettesComponent } from './components/veulettes/veulettes.component';
 import { LpdallesComponent } from './components/lpdalles/lpdalles.component';
 import { LgdallesComponent } from './components/lgdalles/lgdalles.component';
+import { SaintPierreEnPortComponent } from './components/saint-pierre-en-port/saint-pierre-en-port.component';
 
 const routes: Routes = [
   { path: 'accueil', component: AccueilComponent },
@@ -45,6 +46,7 @@ const routes: Routes = [
   { path: 'quiberville', component: QuibervilleComponent, data: { animation: 'isRight' } },
   { path: 'saint_aubin', component: SaintAubinComponent, data: { animation: 'isRight' } },
   { path: 'sainte_marguerite', component: SainteMargueriteComponent, data: { animation: 'isRight' } },
+  { path: 'saint_pierre_en_port', component: SaintPierreEnPortComponent, data: { animation: 'isRight' } },
   { path: 'saint_valery', component: SaintValeryComponent, data: { animation: 'isRight' } },
   { path: 'sotteville', component: SottevilleComponent, data: { animation: 'isRight' } },
   { path: 'varengeville', component: VarengevilleComponent, data: { animation: 'isRight' } },
