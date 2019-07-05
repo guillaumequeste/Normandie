@@ -217,7 +217,7 @@ h4 {
 
 @media screen and (max-width: 1000px) {
     .accueil {
-        height: 4350px;
+        min-height: 100vh;
         background-image: none;
     }
     .ault {
@@ -252,104 +252,111 @@ h4 {
     }
     .etretat {
         position: absolute;
-        top: 1050px;
+        top: 1300px;
         transform: rotate(0deg);
         left: 8%;
     }
     .le_treport {
         position: absolute;
-        top: 1300px;
+        top: 1550px;
         transform: rotate(0deg);
         left: 8%;
     }
     .lgdalles {
         position: absolute;
-        top: 1300px;
+        top: 1800px;
         transform: rotate(0deg);
         left: 8%;
     }
     .lpdalles {
         position: absolute;
-        top: 1300px;
+        top: 2050px;
         transform: rotate(0deg);
         left: 8%;
     }
     .mers {
         position: absolute;
-        top: 1550px;
+        top: 2300px;
         transform: rotate(0deg);
         left: 8%;
     }
     .mesnil_val {
         position: absolute;
-        top: 1800px;
+        top: 2550px;
         transform: rotate(0deg);
         left: 8%;
     }
     .pourville {
         position: absolute;
-        top: 2050px;
+        top: 2800px;
         transform: rotate(0deg);
         left: 8%;
     }
     .puys {
         position: absolute;
-        top: 2300px;
-        transform: rotate(0deg);
-        left: 15%;
-    }
-    .quiberville {
-        position: absolute;
-        top: 2550px;
-        transform: rotate(0deg);
-        left: 8%;
-    }
-    .saint_aubin {
-        position: absolute;
-        top: 2800px;
-        transform: rotate(0deg);
-        left: 8%;
-    }
-    .sainte_marguerite {
-        position: absolute;
         top: 3050px;
         transform: rotate(0deg);
         left: 8%;
     }
-    .saint_valery {
+    .quiberville {
         position: absolute;
         top: 3300px;
         transform: rotate(0deg);
         left: 8%;
     }
-    .sotteville {
+    .saint_aubin {
         position: absolute;
         top: 3550px;
         transform: rotate(0deg);
         left: 8%;
     }
-    .varengeville {
+    .sainte_marguerite {
         position: absolute;
         top: 3800px;
         transform: rotate(0deg);
         left: 8%;
     }
-    .veules {
+    .saint_pierre_en_port {
         position: absolute;
         top: 4050px;
+        transform: rotate(0deg);
+        left: 8%;
+    }
+    .saint_valery {
+        position: absolute;
+        top: 4300px;
+        transform: rotate(0deg);
+        left: 8%;
+    }
+    .sotteville {
+        position: absolute;
+        top: 4550px;
+        transform: rotate(0deg);
+        left: 8%;
+    }
+    .varengeville {
+        position: absolute;
+        top: 4800px;
+        transform: rotate(0deg);
+        left: 8%;
+    }
+    .veules {
+        position: absolute;
+        top: 5050px;
         transform: rotate(0deg);
         left: 8%;
     }
     .veulettes {
         position: absolute;
-        top: 4050px;
+        top: 5300px;
         transform: rotate(0deg);
         left: 8%;
     }
     .yport {
         position: absolute;
-        top: 4300px;
+        top: 5500px;
         transform: rotate(0deg);
         left: 8%;
+        margin-bottom: 5vh;
     }
 }

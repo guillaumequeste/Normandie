@@ -26,9 +26,11 @@ import { VeulettesComponent } from './components/veulettes/veulettes.component';
 import { LpdallesComponent } from './components/lpdalles/lpdalles.component';
 import { LgdallesComponent } from './components/lgdalles/lgdalles.component';
 import { SaintPierreEnPortComponent } from './components/saint-pierre-en-port/saint-pierre-en-port.component';
+import { CommunesComponent } from './components/communes/communes.component';
 
 const routes: Routes = [
   { path: 'accueil', component: AccueilComponent },
+  { path: 'communes', component: CommunesComponent },
   { path: 'credits', component: CreditsComponent, data: { animation: 'isRight' } },
   { path: 'ault', component: AultComponent, data: { animation: 'isRight' } },
   { path: 'belleville', component: BellevilleComponent, data: { animation: 'isRight' } },
@@ -36,9 +38,9 @@ const routes: Routes = [
   { path: 'criel', component: CrielComponent, data: { animation: 'isRight' } },
   { path: 'dieppe', component: DieppeComponent, data: { animation: 'isRight' } },
   { path: 'etretat', component: EtretatComponent, data: { animation: 'isRight' } },
-  { path: 'le_treport', component: LeTreportComponent, data: { animation: 'isRight' } },
   { path: 'les_grandes_dalles', component: LgdallesComponent, data: { animation: 'isRight' } },
   { path: 'les_petites_dalles', component: LpdallesComponent, data: { animation: 'isRight' } },
+  { path: 'le_treport', component: LeTreportComponent, data: { animation: 'isRight' } },
   { path: 'mers', component: MersComponent, data: { animation: 'isRight' } },
   { path: 'mesnil_val', component: MesnilValComponent, data: { animation: 'isRight' } },
   { path: 'pourville', component: PourvilleComponent, data: { animation: 'isRight' } },

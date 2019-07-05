@@ -1,0 +1,22 @@
+    @import url('https://fonts.googleapis.com/css?family=Parisienne');
+    .communes {
+        height: 95vh;
+    }
+    
+    .liste {
+        display: flex;
+        flex-direction: column;
+        padding: 5vh 5vw 5vh 5VW;
+    }
+    
+    a {
+        color: white;
+        font-family: 'Parisienne', cursive, sans-serif;
+        text-decoration: none;
+        margin-right: 5vw;
+        font-size: 30px;
+    }
+    
+    a:hover {
+        color: yellow;
+    }
