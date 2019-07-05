@@ -20,6 +20,7 @@ import { SaintAubinComponent } from './components/saint-aubin/saint-aubin.compon
 import { SaintValeryComponent } from './components/saint-valery/saint-valery.component';
 import { MersComponent } from './components/mers/mers.component';
 import { AultComponent } from './components/ault/ault.component';
+import { YportComponent } from './components/yport/yport.component';
 
 const routes: Routes = [
   { path: 'accueil', component: AccueilComponent },
@@ -41,6 +42,7 @@ const routes: Routes = [
   { path: 'sotteville', component: SottevilleComponent, data: { animation: 'isRight' } },
   { path: 'varengeville', component: VarengevilleComponent, data: { animation: 'isRight' } },
   { path: 'veules', component: VeulesComponent, data: { animation: 'isRight' } },
+  { path: 'yport', component: YportComponent, data: { animation: 'isRight' } },
   { path: '', redirectTo: 'accueil', pathMatch: 'full' },
   { path: '**', component: ErreurComponent }
 ];

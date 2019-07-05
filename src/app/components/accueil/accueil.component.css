@@ -82,7 +82,7 @@ h4 {
 
 .le_treport {
     position: fixed;
-    top: 68%;
+    top: 75%;
     left: 30%;
     transform: rotate(-5deg);
 }
@@ -166,6 +166,13 @@ h4 {
     top: 65%;
     right: 25%;
     transform: rotate(5deg);
+}
+
+.yport {
+    position: fixed;
+    top: 75%;
+    left: 45%;
+    transform: rotate(-5deg);
 }
 
 @media screen and (max-width: 1000px) {
@@ -272,6 +279,12 @@ h4 {
     .veules {
         position: absolute;
         top: 4050px;
+        transform: rotate(0deg);
+        left: 8%;
+    }
+    .yport {
+        position: absolute;
+        top: 4300px;
         transform: rotate(0deg);
         left: 8%;
     }

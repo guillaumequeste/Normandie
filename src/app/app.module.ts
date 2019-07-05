@@ -25,6 +25,7 @@ import { SaintAubinComponent } from './components/saint-aubin/saint-aubin.compon
 import { SaintValeryComponent } from './components/saint-valery/saint-valery.component';
 import { MersComponent } from './components/mers/mers.component';
 import { AultComponent } from './components/ault/ault.component';
+import { YportComponent } from './components/yport/yport.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { AultComponent } from './components/ault/ault.component';
     SaintAubinComponent,
     SaintValeryComponent,
     MersComponent,
-    AultComponent
+    AultComponent,
+    YportComponent
   ],
   imports: [
     BrowserModule,
