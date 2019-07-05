@@ -24,6 +24,7 @@ import { YportComponent } from './components/yport/yport.component';
 import { EtretatComponent } from './components/etretat/etretat.component';
 import { VeulettesComponent } from './components/veulettes/veulettes.component';
 import { LpdallesComponent } from './components/lpdalles/lpdalles.component';
+import { LgdallesComponent } from './components/lgdalles/lgdalles.component';
 
 const routes: Routes = [
   { path: 'accueil', component: AccueilComponent },
@@ -35,6 +36,7 @@ const routes: Routes = [
   { path: 'dieppe', component: DieppeComponent, data: { animation: 'isRight' } },
   { path: 'etretat', component: EtretatComponent, data: { animation: 'isRight' } },
   { path: 'le_treport', component: LeTreportComponent, data: { animation: 'isRight' } },
+  { path: 'les_grandes_dalles', component: LgdallesComponent, data: { animation: 'isRight' } },
   { path: 'les_petites_dalles', component: LpdallesComponent, data: { animation: 'isRight' } },
   { path: 'mers', component: MersComponent, data: { animation: 'isRight' } },
   { path: 'mesnil_val', component: MesnilValComponent, data: { animation: 'isRight' } },

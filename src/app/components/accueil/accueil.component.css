@@ -95,6 +95,13 @@ h4 {
     transform: rotate(-5deg);
 }
 
+.lgdalles {
+    position: fixed;
+    top: 75%;
+    right: 15%;
+    transform: rotate(0deg);
+}
+
 .lpdalles {
     position: fixed;
     top: 48%;
@@ -108,7 +115,7 @@ h4 {
     top: 48%;
     right: -2%;
     transform: rotate(90deg);
-    z-index: 40;
+    z-index: 10;
 }
 
 .mesnil_val {
@@ -153,6 +160,7 @@ h4 {
     top: 65%;
     right: 5%;
     transform: rotate(-7deg);
+    z-index: 5;
 }
 
 .saint_valery {
@@ -241,6 +249,18 @@ h4 {
         left: 8%;
     }
     .le_treport {
+        position: absolute;
+        top: 1300px;
+        transform: rotate(0deg);
+        left: 8%;
+    }
+    .lgdalles {
+        position: absolute;
+        top: 1300px;
+        transform: rotate(0deg);
+        left: 8%;
+    }
+    .lpdalles {
         position: absolute;
         top: 1300px;
         transform: rotate(0deg);

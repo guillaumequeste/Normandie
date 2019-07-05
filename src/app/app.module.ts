@@ -29,6 +29,7 @@ import { YportComponent } from './components/yport/yport.component';
 import { EtretatComponent } from './components/etretat/etretat.component';
 import { VeulettesComponent } from './components/veulettes/veulettes.component';
 import { LpdallesComponent } from './components/lpdalles/lpdalles.component';
+import { LgdallesComponent } from './components/lgdalles/lgdalles.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +58,8 @@ import { LpdallesComponent } from './components/lpdalles/lpdalles.component';
     YportComponent,
     EtretatComponent,
     VeulettesComponent,
-    LpdallesComponent
+    LpdallesComponent,
+    LgdallesComponent
   ],
   imports: [
     BrowserModule,
