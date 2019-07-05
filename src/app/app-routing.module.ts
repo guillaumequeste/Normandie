@@ -21,6 +21,9 @@ import { SaintValeryComponent } from './components/saint-valery/saint-valery.com
 import { MersComponent } from './components/mers/mers.component';
 import { AultComponent } from './components/ault/ault.component';
 import { YportComponent } from './components/yport/yport.component';
+import { EtretatComponent } from './components/etretat/etretat.component';
+import { VeulettesComponent } from './components/veulettes/veulettes.component';
+import { LpdallesComponent } from './components/lpdalles/lpdalles.component';
 
 const routes: Routes = [
   { path: 'accueil', component: AccueilComponent },
@@ -30,7 +33,9 @@ const routes: Routes = [
   { path: 'berneval', component: BernevalComponent, data: { animation: 'isRight' } },
   { path: 'criel', component: CrielComponent, data: { animation: 'isRight' } },
   { path: 'dieppe', component: DieppeComponent, data: { animation: 'isRight' } },
+  { path: 'etretat', component: EtretatComponent, data: { animation: 'isRight' } },
   { path: 'le_treport', component: LeTreportComponent, data: { animation: 'isRight' } },
+  { path: 'les_petites_dalles', component: LpdallesComponent, data: { animation: 'isRight' } },
   { path: 'mers', component: MersComponent, data: { animation: 'isRight' } },
   { path: 'mesnil_val', component: MesnilValComponent, data: { animation: 'isRight' } },
   { path: 'pourville', component: PourvilleComponent, data: { animation: 'isRight' } },
@@ -42,6 +47,7 @@ const routes: Routes = [
   { path: 'sotteville', component: SottevilleComponent, data: { animation: 'isRight' } },
   { path: 'varengeville', component: VarengevilleComponent, data: { animation: 'isRight' } },
   { path: 'veules', component: VeulesComponent, data: { animation: 'isRight' } },
+  { path: 'veulettes', component: VeulettesComponent, data: { animation: 'isRight' } },
   { path: 'yport', component: YportComponent, data: { animation: 'isRight' } },
   { path: '', redirectTo: 'accueil', pathMatch: 'full' },
   { path: '**', component: ErreurComponent }

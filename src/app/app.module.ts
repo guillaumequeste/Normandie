@@ -26,6 +26,9 @@ import { SaintValeryComponent } from './components/saint-valery/saint-valery.com
 import { MersComponent } from './components/mers/mers.component';
 import { AultComponent } from './components/ault/ault.component';
 import { YportComponent } from './components/yport/yport.component';
+import { EtretatComponent } from './components/etretat/etretat.component';
+import { VeulettesComponent } from './components/veulettes/veulettes.component';
+import { LpdallesComponent } from './components/lpdalles/lpdalles.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +54,10 @@ import { YportComponent } from './components/yport/yport.component';
     SaintValeryComponent,
     MersComponent,
     AultComponent,
-    YportComponent
+    YportComponent,
+    EtretatComponent,
+    VeulettesComponent,
+    LpdallesComponent
   ],
   imports: [
     BrowserModule,
