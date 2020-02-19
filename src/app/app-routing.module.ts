@@ -55,8 +55,9 @@ const routes: Routes = [
   { path: 'veules', component: VeulesComponent, data: { animation: 'isRight' } },
   { path: 'veulettes', component: VeulettesComponent, data: { animation: 'isRight' } },
   { path: 'yport', component: YportComponent, data: { animation: 'isRight' } },
+  { path: 'notfound', component: ErreurComponent, data: { animation: 'isRight' } },
   { path: '', redirectTo: 'accueil', pathMatch: 'full' },
-  { path: '**', component: ErreurComponent }
+  { path: '**', redirectTo: '/notfound' }
 ];
 
 @NgModule({
